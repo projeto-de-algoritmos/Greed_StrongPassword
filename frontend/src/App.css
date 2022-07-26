@@ -2,37 +2,180 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  height: 100%;
+  color: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root {
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.password {
+  background-color: #005476;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: inline-block;
+}
+
+.password-h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #FBB040;
+}
+
+.password-h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.password-title {
+  margin: 0 auto;
+  width: 942px;
+  margin-top: 114px;
+  margin-bottom: 30px;
+}
+
+.password-form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.password-input {
+  width: 312px;
+  height: 70px;
+  background: #095F82;
+  border-radius: 28px;
+  border: none;
+  padding-left: 28px;
+  padding-right: 28px;
+  margin-bottom: 18px;
+  color: #FFFFFF;
+}
+
+
+.password-input::-webkit-input-placeholder {
+  /* Edge */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFFFFF;
+  opacity: 0.65;
+}
+
+.password-input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFFFFF;
+  opacity: 0.65;
+}
+
+.password-input::placeholder {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFFFFF;
+  opacity: 0.65;
+}
+
+.password-input:focus,
+.password-input:focus {
+  border-radius: 28px;
+  outline: none;
+  border: 1px solid #FFFFFF;
+  background-color: #FFF2DE;
+}
+
+.password-input:focus::placeholder {
+  color: transparent;
+}
+
+.password-btn-next {
+  width: 312px;
+  height: 70px;
+  background: #FBB040;
+  border-radius: 28px;
+  border: none;
+  text-align: left;
+  line-height: 120%;
+  font-weight: 700;
+  font-size: 20px;
+  color: #005476;
+  padding-left: 61px;
+  padding-right: 61px;
+}
+
+.password-btn-next:hover {
+  background-color: #FDD18F;
+}
+
+.password-btn-arrow {
+  width: 42.22px;
+  height: 23.07px;
+  float: right;
+}
+
+.password-form-error {
+  width: 342px;
+  height: 125px;
+  margin: 0 auto;
+  background: #095F82;
+  border-radius: 29px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 66px;
+  margin-bottom: 61px;
 }
 
-.App-link {
-  color: #61dafb;
+.password-form-error-txt {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #D89B9B;
+  padding-bottom: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.password-form-check-txt {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #65BF73;
+  padding-bottom: 8px;
+}
+
+.password-error-check {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+
+.password-confirmation-error {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #D89B9B;
+  padding-bottom: 8px;
 }
