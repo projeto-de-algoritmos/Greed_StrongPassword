@@ -99,7 +99,6 @@ body {
   border-radius: 28px;
   outline: none;
   border: 1px solid #FFFFFF;
-  background-color: #FFF2DE;
 }
 
 .password-input:focus::placeholder {
@@ -133,7 +132,7 @@ body {
 
 .password-form-error {
   width: 342px;
-  height: 125px;
+  height: 280px;
   margin: 0 auto;
   background: #095F82;
   border-radius: 29px;
@@ -160,7 +159,7 @@ body {
   font-size: 14px;
   line-height: 120%;
   letter-spacing: -0.01em;
-  color: #65BF73;
+  color: #FFFFFF;
   padding-bottom: 8px;
 }
 
@@ -170,12 +169,12 @@ body {
   margin-right: 8px;
 }
 
-.password-confirmation-error {
+.password-select {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 120%;
-  letter-spacing: -0.01em;
-  color: #D89B9B;
-  padding-bottom: 8px;
+  text-align: center;
+  color: #FBB040;
+  margin-left: -66px;
 }
