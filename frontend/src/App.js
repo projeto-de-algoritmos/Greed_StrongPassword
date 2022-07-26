@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useEffect, useState } from "react";
-import { useForm } from "react-hook-form";
+import { useForm } from 'react-hook-form';
 import Check from "../src/assets/check.svg"
 import Arrow from "../src/assets/arrow.svg"
 import senhas from "../src/utils/filtered_passwords.txt"
