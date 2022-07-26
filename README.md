@@ -25,7 +25,14 @@ As possíveis operações para modificar a senha são:
 - Adicionar um caractere;
 - Substituir um caractere por outro;
 
+Segue o vídeo de apresentação: ![Senha Forte](./apresentacao/Greed-lucas-andre.mp4)
+
 ## Screenshots
+
+![](./apresentacao/senha_forte.png)
+![](./apresentacao/senha_forte_3.png)
+![](./apresentacao/senha_forte_2.png)
+
 
 ## Instalação 
 **Linguagem**: JavaScript, HTML, CSS <br>
