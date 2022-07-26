@@ -18,6 +18,7 @@ Uma senha forte é definida pelos seguintes critérios:
 - Possuir uma letra maiúscula;
 - Possuir uma letra minúscula;
 - Possuir um número.
+- Não possuir três dígitos iguais consecutivos
 
 As possíveis operações para modificar a senha são:
 
